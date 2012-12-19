@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.0">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-12-19T10:40:37Z</created>
+    <modified>2012-12-19T10:40:37Z</modified>
+    <revision></revision>
+    <title></title>
+    <subject></subject>
+    <keywords></keywords>
+    <unit meter="1.000000"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_geometries>
+    <geometry id="GEO_CargoBay-lib" name="GEO_CargoBayMesh">
+      <mesh>
+        <source id="GEO_CargoBay-lib-Position">
+          <float_array id="GEO_CargoBay-lib-Position-array" count="24">
+-0.097135 0.950213 -0.000000
+-0.097135 0.820181 0.000000
+0.712363 0.950213 0.000000
+0.712363 0.820181 0.000000
+-0.097135 0.950214 0.674536
+-0.097135 0.820182 0.674536
+0.712363 0.950214 0.674536
+0.712363 0.820182 0.674536
+</float_array>
+          <technique_common>
+            <accessor source="#GEO_CargoBay-lib-Position-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GEO_CargoBay-lib-Normal0">
+          <float_array id="GEO_CargoBay-lib-Normal0-array" count="108">
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#GEO_CargoBay-lib-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GEO_CargoBay-lib-UV0">
+          <float_array id="GEO_CargoBay-lib-UV0-array" count="144">
+1.000000 0.000000
+0.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+1.000000 0.000000
+0.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+1.000000 0.000000
+0.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#GEO_CargoBay-lib-UV0-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="GEO_CargoBay-lib-Vertex">
+          <input semantic="POSITION" source="#GEO_CargoBay-lib-Position"/>
+        </vertices>
+        <polygons count="12">
+          <input semantic="VERTEX" offset="0" source="#GEO_CargoBay-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#GEO_CargoBay-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#GEO_CargoBay-lib-UV0"/>
+          <p>0 0 24 2 1 26 3 2 27</p>
+          <p>3 3 27 1 4 25 0 5 24</p>
+          <p>4 6 28 5 7 29 7 8 31</p>
+          <p>7 9 31 6 10 30 4 11 28</p>
+          <p>0 12 32 1 13 33 5 14 35</p>
+          <p>5 15 35 4 16 34 0 17 32</p>
+          <p>1 18 36 3 19 37 7 20 39</p>
+          <p>7 21 39 5 22 38 1 23 36</p>
+          <p>3 24 40 2 25 41 6 26 43</p>
+          <p>6 27 43 7 28 42 3 29 40</p>
+          <p>2 30 44 0 31 45 4 32 47</p>
+          <p>4 33 47 6 34 46 2 35 44</p>
+        </polygons>
+      </mesh>
+    </geometry>
+    <geometry id="GEO_CargoBayFloor-lib" name="GEO_CargoBayFloorMesh">
+      <mesh>
+        <source id="GEO_CargoBayFloor-lib-Position">
+          <float_array id="GEO_CargoBayFloor-lib-Position-array" count="24">
+-0.102923 -0.870040 0.000000
+0.147172 -0.870040 0.000000
+-0.102923 0.870040 0.000000
+0.147172 0.870040 0.000000
+-0.102923 -0.870041 0.674536
+0.147172 -0.870040 0.674536
+-0.102923 0.870041 0.674536
+0.147172 0.870040 0.674536
+</float_array>
+          <technique_common>
+            <accessor source="#GEO_CargoBayFloor-lib-Position-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GEO_CargoBayFloor-lib-Normal0">
+          <float_array id="GEO_CargoBayFloor-lib-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#GEO_CargoBayFloor-lib-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GEO_CargoBayFloor-lib-UV0">
+          <float_array id="GEO_CargoBayFloor-lib-UV0-array" count="48">
+1.000000 0.000000
+0.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#GEO_CargoBayFloor-lib-UV0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="GEO_CargoBayFloor-lib-Vertex">
+          <input semantic="POSITION" source="#GEO_CargoBayFloor-lib-Position"/>
+        </vertices>
+        <polygons count="12">
+          <input semantic="VERTEX" offset="0" source="#GEO_CargoBayFloor-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#GEO_CargoBayFloor-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#GEO_CargoBayFloor-lib-UV0"/>
+          <p>0 0 0 2 1 2 3 2 3</p>
+          <p>3 3 3 1 4 1 0 5 0</p>
+          <p>4 6 4 5 7 5 7 8 7</p>
+          <p>7 9 7 6 10 6 4 11 4</p>
+          <p>0 12 8 1 13 9 5 14 11</p>
+          <p>5 15 11 4 16 10 0 17 8</p>
+          <p>1 18 12 3 19 13 7 20 15</p>
+          <p>7 21 15 5 22 14 1 23 12</p>
+          <p>3 24 16 2 25 17 6 26 19</p>
+          <p>6 27 19 7 28 18 3 29 16</p>
+          <p>2 30 20 0 31 21 4 32 23</p>
+          <p>4 33 23 6 34 22 2 35 20</p>
+        </polygons>
+      </mesh>
+    </geometry>
+    <geometry id="GEO_CargoBay2-lib" name="GEO_CargoBay2Mesh">
+      <mesh>
+        <source id="GEO_CargoBay2-lib-Position">
+          <float_array id="GEO_CargoBay2-lib-Position-array" count="24">
+-0.097135 -0.950213 -0.000000
+-0.097135 -0.820176 0.000000
+0.712363 -0.950213 0.000000
+0.712363 -0.820176 0.000000
+-0.097135 -0.950213 0.674536
+-0.097135 -0.820175 0.674536
+0.712363 -0.950213 0.674536
+0.712363 -0.820175 0.674536
+</float_array>
+          <technique_common>
+            <accessor source="#GEO_CargoBay2-lib-Position-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GEO_CargoBay2-lib-Normal0">
+          <float_array id="GEO_CargoBay2-lib-Normal0-array" count="108">
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#GEO_CargoBay2-lib-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GEO_CargoBay2-lib-UV0">
+          <float_array id="GEO_CargoBay2-lib-UV0-array" count="48">
+1.000000 0.000000
+0.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#GEO_CargoBay2-lib-UV0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="GEO_CargoBay2-lib-Vertex">
+          <input semantic="POSITION" source="#GEO_CargoBay2-lib-Position"/>
+        </vertices>
+        <polygons count="12">
+          <input semantic="VERTEX" offset="0" source="#GEO_CargoBay2-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#GEO_CargoBay2-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#GEO_CargoBay2-lib-UV0"/>
+          <p>0 0 0 1 1 1 3 2 3</p>
+          <p>3 3 3 2 4 2 0 5 0</p>
+          <p>4 6 4 6 7 6 7 8 7</p>
+          <p>7 9 7 5 10 5 4 11 4</p>
+          <p>0 12 8 4 13 10 5 14 11</p>
+          <p>5 15 11 1 16 9 0 17 8</p>
+          <p>1 18 12 5 19 14 7 20 15</p>
+          <p>7 21 15 3 22 13 1 23 12</p>
+          <p>3 24 16 7 25 18 6 26 19</p>
+          <p>6 27 19 2 28 17 3 29 16</p>
+          <p>2 30 20 6 31 22 4 32 23</p>
+          <p>4 33 23 0 34 21 2 35 20</p>
+        </polygons>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="RootNode" name="RootNode">
+      <node id="GEO_CargoBay" name="GEO_CargoBay">
+        <translate sid="translate">0.000000 -4.164452 1.001830</translate>
+        <rotate sid="jointOrientX">1 0 0 -90.000000</rotate>
+        <rotate sid="rotateZ">0 0 1 89.999991</rotate>
+        <rotate sid="rotateY">0 1 0 0.000005</rotate>
+        <rotate sid="rotateX">1 0 0 0.000005</rotate>
+        <scale sid="scale">2.149580 1.238751 11.448632</scale>
+        <instance_geometry url="#GEO_CargoBay-lib"/>
+      </node>
+      <node id="GEO_CargoBayFloor" name="GEO_CargoBayFloor">
+        <translate sid="translate">0.000000 -4.164452 1.001830</translate>
+        <rotate sid="jointOrientX">1 0 0 -90.000000</rotate>
+        <rotate sid="rotateZ">0 0 1 89.999982</rotate>
+        <rotate sid="rotateY">0 1 0 0.000027</rotate>
+        <scale sid="scale">2.149580 1.238750 11.448630</scale>
+        <instance_geometry url="#GEO_CargoBayFloor-lib"/>
+      </node>
+      <node id="GEO_CargoBay2" name="GEO_CargoBay2">
+        <translate sid="translate">0.000000 -4.226484 1.001830</translate>
+        <rotate sid="jointOrientX">1 0 0 -90.000000</rotate>
+        <rotate sid="rotateZ">0 0 1 89.999982</rotate>
+        <rotate sid="rotateY">0 1 0 0.000027</rotate>
+        <scale sid="scale">2.149580 1.238750 11.448630</scale>
+        <instance_geometry url="#GEO_CargoBay2-lib"/>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#RootNode"/>
+  </scene>
+</COLLADA>
+
