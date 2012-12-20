@@ -18,7 +18,7 @@ namespace KSPTest
         public override void OnStart(PartModule.StartState state)
         {
             anim = part.FindModelAnimators(clipName)[0];
-            //anim[clipName].wrapMode = WrapMode.ClampForever;
+            anim[clipName].wrapMode = WrapMode.ClampForever;
             //Ensure speed is positive on first playing
             anim[clipName].speed = -1;
             anim.Stop();
@@ -29,14 +29,13 @@ namespace KSPTest
             //Parse config value into KeyCode
             inputKey = (KeyCode)Enum.Parse(typeof(KeyCode), key);
 
-            //<rant>Clampmode isn't working for some reason.</rant>
+            //<rant>Clampmode doesn't stop at time 1, it just runs through</rant>
             //If overrun length of animation, reset to start/end
             float time = anim[clipName].normalizedTime;
+            PDebug.Log("prev time" + time);
             if (time >= 1 || time <= 0)
-                anim[clipName].normalizedTime = (int)time;
-
-            PDebug.Log(anim[clipName].normalizedTime);
-            
+                anim[clipName].normalizedTime = (float)Math.Round(time);
+            PDebug.Log((int)time);
             //Play animation. Each time invert direction
             if (Input.GetKeyDown(inputKey))
             {
